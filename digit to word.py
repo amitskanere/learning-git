@@ -13,10 +13,10 @@ in_words = {
 }
 output = ""
 for digit in phone:
-    print(digit)
+
     if digit == " " or (digit >  'a' and digit < 'z'):
         continue
-    output += in_words.get(digit)+" "
+    output =output + in_words.get(digit)+" "
 print(output)    
 
 
