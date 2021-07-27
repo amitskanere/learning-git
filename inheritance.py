@@ -18,3 +18,7 @@ dog.barks()
 cat=Cat()
 cat.walk()
 cat.cat_loves()
+
+
+janvar={dog:'kutta'}
+print(janvar)
