@@ -5,12 +5,13 @@ result={}  # result["aa"] = a
 # { "aa" : 1 }
 for word in b:
 
-   if result.get(word):
+   if result.getword():
        result[word] = result[word] + 1
    else:
        result[word]=1
 
 print(result)
+
 
 
 
