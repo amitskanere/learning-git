@@ -14,7 +14,7 @@ class Emp:
     def instance_method(self):
         print("instance method")
 
-if __name__ == '__main__':
+if __name__ == '__main__' :
     print(__name__)
     print(os.__name__)
 

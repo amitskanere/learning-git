@@ -1,8 +1,6 @@
-N = int(input())
-lst = []
-for value in range(N):
-     i,e = int(input('insert')).split()
-     lst.insert(i,e)
-print(lst)
-
-             
+a = 'i am amit kanere'
+b = a.split()
+c = ''
+for words in b[::-1]:
+     c = c+" "+words[::-1]
+print(c)

@@ -13,3 +13,4 @@ def gift(a,b,c,d):
     print(d,c,b,a)
 
 gift(1,2,3,4)
+printer('age',29)
