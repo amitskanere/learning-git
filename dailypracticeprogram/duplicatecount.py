@@ -1,18 +1,23 @@
 a='aa ab ac ad ba aa cd ad'
-b=a.split()
-print(b)
+# b=a.split()
+# print(b)
 result={}  # result["aa"] = a
 # { "aa" : 1 }
-for word in b:
+# for word in b:
+#
+#    if result.get(word):
+#        result[word] = result[word] + 1
+#    else:
+#        result[word]=1
+#
+# print(result)
 
-   if result.get(word):
-       result[word] = result[word] + 1
-   else:
-       result[word]=1
+
+b = a.split()
+for word in b:
+    result[word] = result.get(word, 0) + 1
 
 print(result)
-
-
 
 
 

@@ -1,10 +1,9 @@
-a='am bd d h u'
+a='am bd d h db bd u'
 b=a.split()
 print(b)
-c=set(a)
-c=list(c)
+c = set(b)
 print(c)
-if len(a)==len(c):
+if len(b)==len(c):
     print('no duplicate')
 else:
     print("there is a duplicate")

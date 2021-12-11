@@ -17,7 +17,7 @@
 #     print('number is not prime')
 
 a = range(1,100)
-
+prime_numbers = []
 for value in a:
     # print(value)
 
@@ -30,4 +30,6 @@ for value in a:
             break
 
     if status:
-        print(value)
+        prime_numbers.append(value)
+
+print(prime_numbers)
